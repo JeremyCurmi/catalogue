@@ -7,6 +7,7 @@ Jeremy Curmi's shareable Claude Code setup, packaged as a plugin marketplace.
 ```
 /plugin marketplace add JeremyCurmi/catalogue
 /plugin install dev@catalogue
+/plugin install productivity@catalogue
 ```
 
 ## Layout
@@ -19,7 +20,13 @@ plugins/
     skills/
   productivity/                 day-to-day
     .claude-plugin/plugin.json
-    skills/
+    skills/tldr/
 ```
 
-Both plugins are empty scaffolds — no skills written yet.
+## Skills
+
+| Plugin | Skill | Does |
+|---|---|---|
+| productivity | [`tldr`](plugins/productivity/skills/tldr) | Compresses an article, X thread or long doc into a terse visual card that reads in under two minutes |
+
+`dev` is still an empty scaffold.
