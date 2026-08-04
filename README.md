@@ -1,26 +1,32 @@
 # catalogue
-AI catalogue containing plugins / skills / agents and so on.
+
+Jeremy Curmi's shareable Claude Code setup, packaged as a plugin marketplace.
+
+## Install
+
+```
+/plugin marketplace add JeremyCurmi/catalogue
+/plugin install dev@catalogue
+/plugin install productivity@catalogue
+```
 
 ## Layout
 
 ```
-skills/<name>/SKILL.md          the skill itself — frontmatter + body, kept under ~60 lines
-           references/*.md      rubrics, templates, examples — read only when the body points at them
-           scripts/*            repeated work the skill shouldn't reinvent every run
+.claude-plugin/marketplace.json
+plugins/
+  dev/                          engineering
+    .claude-plugin/plugin.json
+    skills/
+  productivity/                 day-to-day
+    .claude-plugin/plugin.json
+    skills/tldr/
 ```
 
 ## Skills
 
-| Skill | Does |
-|---|---|
-| [`tldr`](skills/tldr) | Compresses an article, X thread or long doc into a terse visual card that reads in under two minutes |
+| Plugin | Skill | Does |
+|---|---|---|
+| productivity | [`tldr`](plugins/productivity/skills/tldr) | Compresses an article, X thread or long doc into a terse visual card that reads in under two minutes |
 
-## Using a skill
-
-Claude Code discovers skills in `~/.claude/skills/`. Symlink so edits here take effect immediately:
-
-```sh
-ln -s "$PWD/skills/tldr" ~/.claude/skills/tldr
-```
-
-Then invoke with `/tldr`, or let the description fire it.
+`dev` is still an empty scaffold.

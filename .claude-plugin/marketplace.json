@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "catalogue",
+  "description": "Jeremy's AI setup — skills, plugins and agents.",
+  "owner": {
+    "name": "Jeremy Curmi",
+    "email": "jeremy.curmi@fasttrack.ai"
+  },
+  "plugins": [
+    {
+      "name": "dev",
+      "description": "Engineering skills — Jeremy's dev setup.",
+      "source": "./plugins/dev"
+    },
+    {
+      "name": "productivity",
+      "description": "Productivity skills — Jeremy's day-to-day setup.",
+      "source": "./plugins/productivity"
+    }
+  ]
+}
