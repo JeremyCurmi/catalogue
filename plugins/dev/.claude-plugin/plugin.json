@@ -1,0 +1,11 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "description": "Engineering skills — Jeremy's dev setup.",
+  "author": {
+    "name": "Jeremy Curmi",
+    "email": "jeremy.curmi@fasttrack.ai"
+  },
+  "repository": "https://github.com/JeremyCurmi/catalogue",
+  "license": "MIT"
+}
