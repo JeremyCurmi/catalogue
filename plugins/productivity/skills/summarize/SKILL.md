@@ -1,6 +1,6 @@
 ---
 name: summarize
-description: Restate the previous message in plain language — no jargon, no acronyms, no filler. Use for "/summarize", "summarize that", "simplify that", "what does that mean", "explain that in plain English", or any request to make the last thing said easier to understand.
+description: Restate the previous message in plain language — no jargon, no acronyms, no filler. Use for "/summarize", "summarize that", "simplify that", "what does that mean", "explain that in plain English", or any request to make the last thing said easier to understand. Scoped to what was said in this conversation — for a pasted link, article, paper or long document use `tldr` instead.
 ---
 
 # Summarize
@@ -9,7 +9,9 @@ Take the previous message and say the same thing in plain language.
 
 ## What to summarize
 
-The most recent substantial message before this one — usually your own last reply. If the user pasted text or gave a file, summarize that instead. If it is genuinely unclear which, ask in one line.
+The most recent substantial message before this one — usually your own last reply.
+
+This skill covers the conversation only. A link, article, paper, PDF or long pasted document is `tldr`'s job — hand it over rather than summarizing it here.
 
 ## Rules
 

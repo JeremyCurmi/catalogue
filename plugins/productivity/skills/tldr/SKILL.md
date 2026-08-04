@@ -1,6 +1,6 @@
 ---
 name: tldr
-description: "Compress an article, X thread, paper or long doc into a terse visual card Jeremy can read in under 2 minutes — ASCII diagrams, bullet fragments, plain words, no jargon. Use when he pastes a link and says tldr, \"summarise this\", \"what does this say\", \"help me consume this\", or drops something long he does not want to read. Reaches x.com articles that WebFetch cannot."
+description: "Compress an article, X thread, paper or long doc into a terse visual card Jeremy can read in under 2 minutes — ASCII diagrams, bullet fragments, plain words, no jargon. Use when he pastes a link and says tldr, \"summarise this\", \"what does this say\", \"help me consume this\", or drops something long he does not want to read. Reaches x.com articles that WebFetch cannot. For a source he hands over — not for the conversation itself; restating something already said here is `summarize`."
 ---
 
 # tldr
