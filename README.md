@@ -8,7 +8,6 @@ Jeremy Curmi's shareable Claude Code setup, packaged as a plugin marketplace.
 /plugin marketplace add JeremyCurmi/catalogue
 /plugin install dev@catalogue
 /plugin install productivity@catalogue
-/plugin install factory@catalogue
 ```
 
 ## Layout
@@ -22,9 +21,6 @@ plugins/
   productivity/                 day-to-day
     .claude-plugin/plugin.json
     skills/
-  factory/                      Linear-driven build pipeline
-    .claude-plugin/plugin.json
-    skills/
 ```
 
 ## Skills
@@ -34,7 +30,6 @@ plugins/
 | dev | [`code-review`](plugins/dev/skills/code-review) | Reviews a GitHub PR across six angles via parallel sub-agents |
 | dev | [`explain-diff`](plugins/dev/skills/explain-diff) | Walks you through a PR's diff as an HTML artifact, then quizzes you |
 | dev | [`worktree`](plugins/dev/skills/worktree) | Works in a git worktree, resuming or branching a fresh one off main |
-| factory | [`linear-issue`](plugins/factory/skills/linear-issue) | Writes or grooms a Linear issue the factory pipeline can build |
 | productivity | [`delegate`](plugins/productivity/skills/delegate) | Fans independent tasks out to subagents while you orchestrate |
 | productivity | [`handoff`](plugins/productivity/skills/handoff) | Compacts the conversation into a handoff doc another agent can resume |
 | productivity | [`html-doc`](plugins/productivity/skills/html-doc) | Produces a polished, shareable HTML doc as a claude.ai Artifact |
