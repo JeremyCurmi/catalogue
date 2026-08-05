@@ -16,6 +16,11 @@
       "name": "productivity",
       "description": "Productivity skills — Jeremy's day-to-day setup.",
       "source": "./plugins/productivity"
+    },
+    {
+      "name": "factory",
+      "description": "AI factory skills — working the delegate-to-agent loop.",
+      "source": "./plugins/factory"
     }
   ]
 }
