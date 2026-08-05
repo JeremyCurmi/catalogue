@@ -22,6 +22,21 @@ directories it uses:
 
 Adding a plugin means a new directory under `plugins/` *and* an entry in `marketplace.json`.
 
+## Keeping docs in sync
+
+Any time a skill/agent/command/plugin is added, removed or renamed, update
+`marketplace.json` and README.md's Skills table + Install/Layout blocks in the SAME change.
+
 ## Local testing
 
 `/plugin marketplace add /Users/jeremy/repos/catalogue`, then `/plugin install dev@catalogue`.
+
+Iterate with `claude --plugin-dir plugins/dev` (overrides the installed copy for that
+session) and `/reload-plugins` after each edit.
+
+Installs are copies under `~/.claude/plugins/cache/<marketplace>/<plugin>/<version>/`, not
+live references — for an installed copy, push, then `/plugin marketplace update catalogue`
+and `/plugin update <plugin>@catalogue`.
+
+`plugin.json` deliberately omits `version`: setting it pins the plugin and updates are
+skipped until the string changes. Without it every commit is a new version. Don't add it back.
