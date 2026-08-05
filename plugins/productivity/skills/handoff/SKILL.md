@@ -1,7 +1,6 @@
 ---
 name: handoff
 description: "Compact the current conversation into a handoff document another agent can pick up cold. Use when you are out of context, switching sessions, or handing work to someone else."
-argument-hint: "What will the next session be used for?"
 disable-model-invocation: true
 ---
 
