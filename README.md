@@ -33,6 +33,7 @@ plugins/
 | productivity | [`delegate`](plugins/productivity/skills/delegate) | Fans independent tasks out to subagents while you orchestrate |
 | productivity | [`handoff`](plugins/productivity/skills/handoff) | Compacts the conversation into a handoff doc another agent can resume |
 | productivity | [`html-doc`](plugins/productivity/skills/html-doc) | Produces a polished, shareable HTML doc as a claude.ai Artifact |
+| productivity | [`musk`](plugins/productivity/skills/musk) | Triages a critical question or incident into the few questions that move it |
 | productivity | [`prompt`](plugins/productivity/skills/prompt) | Turns a rough brain dump into a well-structured prompt |
 | productivity | [`quiz-me`](plugins/productivity/skills/quiz-me) | Quizzes you on a source to check you actually understood it |
 | productivity | [`summarize`](plugins/productivity/skills/summarize) | Restates the previous message in plain language |
