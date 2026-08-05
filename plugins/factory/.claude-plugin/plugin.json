@@ -1,6 +1,5 @@
 {
   "name": "factory",
-  "version": "0.1.0",
   "description": "AI factory skills — working the delegate-to-agent loop.",
   "author": {
     "name": "Jeremy Curmi",
