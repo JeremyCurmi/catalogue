@@ -1,9 +1,9 @@
 ---
-name: eli5
-description: Re-explain the last technical answer from scratch, for someone who did not follow it — analogies, no jargon, build up from what the reader already knows. Use for "/eli5", "explain that like I'm five", "I don't get it", "wait, what?", "you lost me", "re-explain that", "what does that actually mean". For a shorter version of something already understood use `summarize`; for a pasted link or long doc use `tldr`.
+name: explain-simple
+description: Re-explain the last technical answer from scratch, for someone who did not follow it — analogies, no jargon, build up from what the reader already knows. Use for "/explain-simple", "explain that simply", "I don't get it", "wait, what?", "you lost me", "re-explain that", "explain it like I'm five", "what does that actually mean". For a shorter version of something already understood use `summarize`; for a pasted link or long doc use `tldr`.
 ---
 
-# ELI5
+# Explain simple
 
 The reader did not follow the last answer. Throw the explanation away and build a new one.
 

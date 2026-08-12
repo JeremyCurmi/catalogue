@@ -31,7 +31,7 @@ plugins/
 | dev | [`explain-diff`](plugins/dev/skills/explain-diff) | Walks you through a PR's diff as an HTML artifact, then quizzes you |
 | dev | [`worktree`](plugins/dev/skills/worktree) | Works in a git worktree, resuming or branching a fresh one off main |
 | productivity | [`delegate`](plugins/productivity/skills/delegate) | Fans independent tasks out to subagents while you orchestrate |
-| productivity | [`eli5`](plugins/productivity/skills/eli5) | Re-explains the last technical answer from scratch when it did not land |
+| productivity | [`explain-simple`](plugins/productivity/skills/explain-simple) | Re-explains the last technical answer from scratch when it did not land |
 | productivity | [`handoff`](plugins/productivity/skills/handoff) | Compacts the conversation into a handoff doc another agent can resume |
 | productivity | [`html-doc`](plugins/productivity/skills/html-doc) | Produces a polished, shareable HTML doc as a claude.ai Artifact |
 | productivity | [`prompt`](plugins/productivity/skills/prompt) | Turns a rough brain dump into a well-structured prompt |
