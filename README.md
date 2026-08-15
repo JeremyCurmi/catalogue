@@ -29,6 +29,7 @@ plugins/
 |---|---|---|
 | dev | [`code-review`](plugins/dev/skills/code-review) | Reviews a GitHub PR across six angles — via parallel sub-agents, or delegated to codex/grok |
 | dev | [`explain-diff`](plugins/dev/skills/explain-diff) | Walks you through a PR's diff as an HTML artifact, then quizzes you |
+| dev | [`security-gate`](plugins/dev/skills/security-gate) | Hunts vulnerabilities in a design, plan, diff or deploy config — each with a working attack and a fix |
 | dev | [`worktree`](plugins/dev/skills/worktree) | Works in a git worktree, resuming or branching a fresh one off main |
 | productivity | [`delegate`](plugins/productivity/skills/delegate) | Fans independent tasks out to subagents while you orchestrate |
 | productivity | [`explain-simple`](plugins/productivity/skills/explain-simple) | Re-explains the last technical answer from scratch when it did not land |
